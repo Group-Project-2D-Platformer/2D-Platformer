@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,6 +13,26 @@ public class PlayerMovement : MonoBehaviour
 
     bool jump = false;
 
+    // Neil
+
+    public int maxHealth = 50;
+    public int currentHealth;
+
+    public HealthBar healthBar;
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
+
+
+
+
+
+
+
     // Update is called once per frame
     void Update()
     {
@@ -22,8 +43,25 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = true;
         }
+       
+        // Test damage when jumping to see if slider on health bar works
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(10);
+        }
+
 
     }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        healthBar.SetHealth(currentHealth);
+    }
+
+
 
     void FixedUpdate()
     {
@@ -31,4 +69,6 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
+
+    
 }
