@@ -65985,6 +65985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1769234171}
   runSpeed: 40
+  animator: {fileID: 1769234175}
 --- !u!95 &1769234175
 Animator:
   serializedVersion: 3
