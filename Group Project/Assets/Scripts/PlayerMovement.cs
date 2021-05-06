@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 40f;
 
     float horizontalMove = 0f;
-
+    public Animator animator;
     bool jump = false;
 
     // Neil
@@ -36,12 +36,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if(Input.GetButtonDown("Jump"))
         {
             jump = true;
+            animator.SetBool("isJumping", true);
         }
        
         // Test damage when jumping to see if slider on health bar works
@@ -59,6 +60,10 @@ public class PlayerMovement : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+    }
+    public void OnLanding()
+    {
+        animator.SetBool("isJumping", false);
     }
 
 
