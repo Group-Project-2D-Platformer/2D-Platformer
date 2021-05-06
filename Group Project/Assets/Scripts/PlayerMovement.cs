@@ -36,7 +36,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream
 
+=======
+       // animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
+>>>>>>> Stashed changes
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if(Input.GetButtonDown("Jump"))
@@ -44,14 +48,7 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
         }
        
-        // Test damage when jumping to see if slider on health bar works
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10);
-        }
-
-
+        
     }
 
     void TakeDamage(int damage)
