@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1943456528}
+  background: {fileID: 0}
 --- !u!61 &79570133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32292,7 +32293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &449543504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32333,12 +32334,12 @@ SpriteRenderer:
   m_SortingLayerID: 1244905721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6774c07c499f3224295468cf597c43ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5c944bab5a30d74bbcbb4691852752b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.14, y: 6.57}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -32586,7 +32587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6800005, y: -0.65, z: -10}
+  m_LocalPosition: {x: -3.6800008, y: -0.65, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -32898,6 +32899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 242645445}
+  background: {fileID: 0}
 --- !u!61 &982274317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32940,7 +32942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1081191748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33266,7 +33268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1494603126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33439,6 +33441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1725637844}
+  background: {fileID: 0}
 --- !u!1 &1509119150
 GameObject:
   m_ObjectHideFlags: 0
@@ -36050,7 +36053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1581902520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36091,12 +36094,12 @@ SpriteRenderer:
   m_SortingLayerID: 1244905721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6774c07c499f3224295468cf597c43ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edf3e70f0d9e4174a95b3e3e44c9c943, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.14, y: 6.57}
+  m_Size: {x: 19.65, y: 18.35}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -36252,7 +36255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1639004941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36293,12 +36296,12 @@ SpriteRenderer:
   m_SortingLayerID: 1244905721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6774c07c499f3224295468cf597c43ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5c944bab5a30d74bbcbb4691852752b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.14, y: 6.57}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -36773,6 +36776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1769234171}
   runSpeed: 40
+  animator: {fileID: 0}
   maxHealth: 50
   currentHealth: 0
   healthBar: {fileID: 207311301}
@@ -36821,6 +36825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 242645445}
+  background: {fileID: 0}
 --- !u!61 &1778464275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36868,7 +36873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1781309454
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36909,12 +36914,12 @@ SpriteRenderer:
   m_SortingLayerID: 1244905721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6774c07c499f3224295468cf597c43ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5c944bab5a30d74bbcbb4691852752b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.14, y: 6.57}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -38512,7 +38517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1936148825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38553,12 +38558,12 @@ SpriteRenderer:
   m_SortingLayerID: 1244905721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6774c07c499f3224295468cf597c43ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5c944bab5a30d74bbcbb4691852752b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.14, y: 6.57}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -38785,12 +38790,12 @@ SpriteRenderer:
   m_SortingLayerID: 1244905721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6774c07c499f3224295468cf597c43ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5c944bab5a30d74bbcbb4691852752b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.14, y: 6.57}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -38985,7 +38990,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040024670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6800005, y: -0.65, z: -10}
+  m_LocalPosition: {x: -3.6800008, y: -0.65, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 661610171}
@@ -39037,6 +39042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1943456528}
+  background: {fileID: 0}
 --- !u!61 &2047227161
 BoxCollider2D:
   m_ObjectHideFlags: 0
