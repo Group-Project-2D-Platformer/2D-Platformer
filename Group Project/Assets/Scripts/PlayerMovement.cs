@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
+        //animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if(Input.GetButtonDown("Jump"))
