@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 40f;
 
     float horizontalMove = 0f;
-
+    public Animator animator;
     bool jump = false;
 
     // Neil
@@ -36,16 +36,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-<<<<<<< Updated upstream
-
-=======
-       // animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
->>>>>>> Stashed changes
+        animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if(Input.GetButtonDown("Jump"))
         {
             jump = true;
+            animator.SetBool("isJumping", true);
         }
        
         
@@ -56,6 +53,10 @@ public class PlayerMovement : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+    }
+    public void OnLanding()
+    {
+        animator.SetBool("isJumping", false);
     }
 
 
